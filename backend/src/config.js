@@ -18,7 +18,7 @@ const layerConfigurations = [
     layersOrder: [
       { name: "Backgroundz" },
       { name: "Eyeball" },
-      { name: "Eye color" },
+      { name: "Eye colors" },
       { name: "Iris" },
       { name: "Shine" },
       { name: "Bottom lid" },
