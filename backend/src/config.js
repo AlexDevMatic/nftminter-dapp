@@ -7,8 +7,8 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "YOUR COLLECTION NAME";
-const description = "Remember to replace this description";
+const namePrefix = "MummyApeNFT";
+const description = "4444 A revival of Apes from the dead";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
@@ -16,13 +16,15 @@ const layerConfigurations = [
   {
     growEditionSizeTo: 4444,
     layersOrder: [
-      { name: "Backgroundz" },
-      { name: "Eyeball" },
-      { name: "Eye colors" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Background" },
+      { name: "Skin" },
+      { name: "Bandage" },
+      { name: "Eyes" },
+      { name: "Headress" },
+      { name: "Earrings" },
+      { name: "Clothes" },
+      { name: "Pet" },
+      { name: "Mouth" },
     ],
   },
 ];
